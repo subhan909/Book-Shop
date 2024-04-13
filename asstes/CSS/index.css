@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("/asstes/font/Roboto-Regular.ttf");
+}
+
+.Hero {
+    background: url("/asstes/Image/Rectangle\ 1.png");
+}
+
+.Hero .navbar ul li {
+    font-weight: 700;
+}
+
+.Hero .navbar .book {
+    font-weight: 700;
+}
+
+.Hero .navbar .btn {
+    background: rgba(77, 44, 94, 1);
+}
+
+.btn {
+    background: rgba(77, 44, 94, 1);
+}
+.clock{
+    margin-top: 60px;
+}
+span{
+    color:  rgba(255, 116, 38, 1);
+}
+
+.Continue {
+    position: absolute;
+    left: 270px;
+    top: 198px;
+}
+@media (max-width:1024px) {
+    .Continue {
+        position: absolute;
+        left: 270px;
+        top: 222px;
+    }
+}
+@media (max-width:767px) {
+    .Continue {
+        position: absolute;
+        left: 270px;
+        top: 198px;
+    }
+}
+
+ @media (max-width:425px) {
+    .Continue{
+        position: absolute;
+        top: 340px;
+        left: 150px;
+    }
+} 
+@media (max-width:375px) {
+    .Continue{
+        position: absolute;
+        left: 100px;
+        top: 380px;
+        width: 150px;
+    }
+} 
+@media (max-width:321px) {
+    .Continue{
+        position: absolute;
+        left: 90px;
+        top: 360px;
+        width: 140px;
+    }
+} 
+ 
+#search {
+    width: 430px;
+    height: 70px;
+}
+@media (max-width:425px) {
+    .Hero #search{
+        width: 350px;
+    }
+    
+}
+@media (max-width:375px) {
+    .Hero #search{
+        width: 320px;
+    }
+    
+}
+@media (max-width:320px) {
+    .Hero #search{
+        width: 280px;
+    }
+    
+}
+
+.searchicon {
+    position: absolute;
+    top: 214px;
+    left: 30px;
+}
+
+
+@media (max-width:1024px){
+    .searchicon {
+        position: absolute;
+        top: 238px;
+        left: 30px;
+    }
+
+}
+
+@media (max-width:768px){
+    .searchicon {
+        position: absolute;
+        top: 213px;
+        left: 30px;
+    }
+
+}
+@media (max-width:492px) {
+    .searchicon{
+        display: none;
+    }
+    
+}
+@media (max-width:786px) {
+    .Hero h3 {
+        text-align: center;
+    } 
+}
+.Hero h3 {
+    font-weight: 800;
+    font-size: 50px;
+}
+.uk {
+    color: gray;
+}
+.color{
+    background-color:  rgba(77, 44, 94, 1);
+    border-radius: 10px;
+    
+}
+.backcolor{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100px;
+    height: 80px;
+}
+.backcolor img{
+width: 50px;
+height: 50px;
+}
+.color p{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.OurTracks .new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.OurTracks p{
+    text-align: center;
+    color:rgba(172, 172, 172, 1);
+    font-size: 18px;
+}
+.OurTracks .main{
+    background-color: white;
+    box-shadow:10px 20px 15px rgb(155, 155, 155);
+    border-radius: 10px;
+}
+
+.OurTracks .ui{
+    color:rgba(172, 172, 172, 1);
+}
+.OurTracks .ua{
+    font-size: 15px;
+}
+.OurTracks .card{
+    border: 1px solid transparent;
+}
+.OurTracks .cap{
+    width: 100%;
+    background: rgba(255, 116, 38, 1);
+    color: white;
+    text-align: center;
+}
+
+ .card-2 .park{
+    background: url("/asstes/Image/Rectangle\ 1.png");
+} 
+.ai{
+    background-color: rgba(77, 44, 94, 1); 
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+}
+.card-2 .park h4{
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+}
+.card-2 .park h1{
+    font-weight: 600;
+}
+@media (max-width:768px) {
+    .card-2 .park h1{
+        text-align: center;
+    }
+    .card-2 .park .aj{
+        text-align: center;
+    }
+    .card-2 .park .aj{
+        display: flex;
+        justify-content: center;
+    }
+}
+.text-card h1{
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-card p{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgba(172, 172, 172, 1);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card1{
+    background-color: rgba(255, 255, 255, 0.952);
+    height: 330px;
+    box-shadow: 10px 10px 10px 0px rgba(26, 25, 25, 0.767);
+    text-align: center;
+    border: 1px solid transparent;
+}
+.icon-card h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.icon-card .ma{
+    text-align: center;
+    color:rgba(172, 172, 172, 1);
+    font-size: 18px;
+}
+.icon-card .college{
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 0px rgba(26, 25, 25, 0.767);
+}
+.icon-card a{
+    color: rgba(255, 116, 38, 1) ;
+}
+.icon-card p{
+    color:rgba(172, 172, 172, 1);
+    font-size: 18px;
+}
+.Subscribe .hus{
+    height: 350px;
+    border-radius: 14px;
+    background-color: rgba(77, 44, 94, 1);
+    color: white;
+}
+.hus h1{
+    font-weight: 800;
+    text-align: center;
+}
+.Subscribe .hus #inputPassword2{
+    height: 60px;
+    width: 350px;
+    border: 1px solid rgba(172, 172, 172, 1);
+}
+@media (max-width:375px) {
+    .Subscribe .hus #inputPassword2{
+        width: 320px;
+    }
+}
+@media (max-width:320px) {
+    .Subscribe .hus #inputPassword2{
+        width: 270px;
+    }
+}
+.Subscribe .hus .btn1{
+    background-color:  rgba(255, 116, 38, 1) ;
+    height: 55px;
+}
+.footer{
+    background: url("/asstes/Image/Rectangle\ 1.png");
+}
+.footer h6{
+    color: black;
+    font-weight: 800;
+}
